@@ -1,0 +1,31 @@
+{
+    "name": "positibe/polyfill-apc-php70",
+    "type": "library",
+    "description": "Positibe polyfill backporting apc_* functions to higher PHP versions",
+    "keywords": ["polyfill", "shim", "compatibility", "portable", "apc"],
+    "homepage": "https://symfony.com",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Pedro Carlos Abreu Jiménez",
+            "email": "pcabreus@gmail.com",
+            "homepage": "http://pcabreus.blogspot.com"
+        },
+        {
+            "name": "PositibeLabs Cooperative",
+            "homepage": "https://github.com/positibelabs"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "files": [ "bootstrap.php" ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
