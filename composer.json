@@ -1,11 +1,11 @@
 {
-    "name": "pcabreus-utils/polyfill-apc-php70",
+    "name": "pcabreus/polyfill-apc-php70",
     "type": "library",
     "description": "Pcabreus polyfill backporting apc_* functions to higher PHP versions",
     "keywords": ["polyfill", "shim", "compatibility", "portable", "apc"],
     "homepage": "https://symfony.com",
     "license": "MIT",
-    "version": "1.1.1",
+    "version": "1.1.0",
     "authors": [
         {
             "name": "Pedro Carlos Abreu Jiménez",
